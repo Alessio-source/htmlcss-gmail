@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Gmail</title>
@@ -7,65 +7,59 @@
   </head>
   <body>
 
-    <!-- contenitore principale -->
-    <div class="container">
+    <header class="border-bottom">
+      <img src="css/img/logo.png" alt="logo-gmail">
+      <h1>Gmail</h1>
+    </header>
 
-      <header>
-        <img src="css/img/logo.png" alt="logo-gmail">
-        <h1>Gmail</h1>
-      </header>
+    <nav class="border-bottom">
+      <form id="search">
+        <input type="search" name="search" value="" placeholder="Search">
+        <input type="submit" name="submit-search" value="VAI">
+      </form>
 
-      <nav>
-        <form id="search">
-          <input type="search" name="search" value="" placeholder="Search">
-          <input type="submit" name="submit-search" value="VAI">
-        </form>
+      <h2 id="text-nav">You have <span id="number">30</span> unread</h2>
+    </nav>
 
-        <p id="text-nav">You have <span id="number">30</span> unread</p>
-      </nav>
+    <main class="border-bottom">
 
-      <main>
+      <!-- form unico per le checkbox delle varie mail -->
+      <form class="rows">
 
-        <!-- form unico per le checkbox delle varie mail -->
-        <form class="rows">
+        <!-- email -->
+        <div class="row">
+          <input type="checkbox" name="mail" value="">
+          <div class="mail-title">&#9733; Oggetto della email</div>
+          <div class="mail-text"> - testo della email...</div>
+        </div>
 
-          <!-- email -->
-          <div class="row">
-            <input type="checkbox" name="mail" value="">
-            <div class="mail-title">&#9733; Oggetto della email</div>
-            <div class="mail-text"> - testo della email...</div>
-          </div>
+        <div class="row read">
+          <input type="checkbox" name="mail" value="">
+          <div class="mail-title">&#9733; Oggetto della email</div>
+          <div class="mail-text"> - testo della email...</div>
+        </div>
 
-          <div class="row-speciale">
-            <input type="checkbox" name="mail" value="">
-            <div class="mail-title">&#9733; Oggetto della email</div>
-            <div class="mail-text"> - testo della email...</div>
-          </div>
+        <div class="row">
+          <input type="checkbox" name="mail" value="">
+          <div class="mail-title">&#9733; Oggetto della email</div>
+          <div class="mail-text"> - testo della email...</div>
+        </div>
 
-          <div class="row">
-            <input type="checkbox" name="mail" value="">
-            <div class="mail-title">&#9733; Oggetto della email</div>
-            <div class="mail-text"> - testo della email...</div>
-          </div>
+        <div class="row">
+          <input type="checkbox" name="mail" value="">
+          <div class="mail-title">&#9733; Oggetto della email</div>
+          <div class="mail-text"> - testo della email...</div>
+        </div>
+        <!-- /email -->
 
-          <div class="row">
-            <input type="checkbox" name="mail" value="">
-            <div class="mail-title">&#9733; Oggetto della email</div>
-            <div class="mail-text"> - testo della email...</div>
-          </div>
-          <!-- /email -->
+      </form>
+      <!-- /form unico per le checkbox delle varie mail -->
 
-        </form>
-        <!-- /form unico per le checkbox delle varie mail -->
-        
-      </main>
+    </main>
 
-      <footer>
-        <p id="footer-text"><span id="footer-name">GMail</span> powered by Davide</p>
-      </footer>
-
-    </div>
-    <!-- /contenitore principale -->
+    <footer>
+      <p><h2 id="footer-name">GMail</h2> <em>powered by Alessio</em></p>
+    </footer>
 
   </body>
 </html>

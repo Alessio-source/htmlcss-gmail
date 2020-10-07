@@ -7,50 +7,43 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-}
-
-.container {
   width: 70%;
   margin: auto;
 }
 
-header{
-  border-bottom: 1px solid white;
-}
-
 img {
   width: 100px;
-  display: inline-block;
   margin-top: 30px;
+  vertical-align: middle;
+  margin-bottom: 10px;
 }
 
 h1{
-  display: inline-block;
+  display: inline;
   color: white;
-  margin-bottom: 10px;
-  vertical-align: top;
-  margin-top: 40px;
 }
 
-nav{
+.border-bottom{
   border-bottom: 1px solid white;
 }
 
 #search{
-  display: block;
   margin-top: 10px;
 }
 
 #text-nav{
-  font-size: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: white;
 }
 
 #number{
+  display: inline-block;
   background-color: orange;
-  padding: 10px 12px 10px 12px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
   border-radius: 50%;
 }
 
@@ -62,38 +55,33 @@ nav{
 .row{
   background-color: #ccc;
   border: 1px solid black;
+  padding: 3px 0px;
 }
 
-.row-speciale{
+.read{
   background-color: white;
-  border: 1px solid black;
 }
 
-input[type=checkbox]{
-  margin-left: 10px;
-  margin-bottom: 5px;
+input[type="checkbox"]{
+  margin-left: 5px;
 }
 
 .mail-title{
   font-weight: bold;
-  display: inline-block;
+  display: inline
 }
 
 .mail-text{
   color: #6d6e6d;
-  display: inline-block;
+  display: inline;
 }
 
 footer{
-  border-top: 1px solid white;
+  margin-top: 10px;
   color: white;
   text-align: center;
 }
 
 #footer-name{
-  font-size: 30px;
-}
-
-#footer-text{
-  margin-top: 10px;
+  display: inline-block;
 }
