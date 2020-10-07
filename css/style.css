@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+header{
+  border-bottom: 1px solid white;
+}
+
+img {
+  width: 100px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+h1{
+  display: inline-block;
+  color: white;
+  margin-bottom: 10px;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+nav{
+  border-bottom: 1px solid white;
+}
+
+#search{
+  display: block;
+  margin-top: 10px;
+}
+
+#text-nav{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#number{
+  background-color: orange;
+  padding: 10px 12px 10px 12px;
+  border-radius: 50%;
+}
+
+.rows{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.row{
+  background-color: #ccc;
+  border: 1px solid black;
+}
+
+.row-speciale{
+  background-color: white;
+  border: 1px solid black;
+}
+
+input[type=checkbox]{
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.mail-title{
+  font-weight: bold;
+  display: inline-block;
+}
+
+.mail-text{
+  color: #6d6e6d;
+  display: inline-block;
+}
+
+footer{
+  border-top: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+#footer-name{
+  font-size: 30px;
+}
+
+#footer-text{
+  margin-top: 10px;
+}
